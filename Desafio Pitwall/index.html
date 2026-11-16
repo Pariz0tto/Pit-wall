@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pit Wall - Fórmula 1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="topo">
+
+<header class="topbar">
+    <span class="logo">PIT <span>WALL</span></span>
+
+    <nav class="menu">
+        <span>PILOTOS</span>
+        <span>CLASSIFICAÇÃO</span>
+        <span>INGRESSOS</span>
+    </nav>
+
+    <span class="btn-primary">COMPRAR INGRESSOS</span>
+</header>
+
+<section class="hero">
+    <div>
+        <p class="eyebrow">FÓRMULA 1 · 2026</p>
+
+        <h1>GRANDE PRÊMIO <span>SÃO PAULO</span></h1>
+
+        <p>Velocidade, emoção e história em Interlagos.</p>
+
+        <div class="track-info">
+            <div class="info">
+                <strong>4.309</strong>
+                <span>METROS</span>
+            </div>
+
+            <div class="info">
+                <strong>15</strong>
+                <span>CURVAS</span>
+            </div>
+
+            <div class="info">
+                <strong>71</strong>
+                <span>VOLTAS</span>
+            </div>
+        </div>
+
+        <span class="btn-primary">CONHECER OS PILOTOS</span>
+    </div>
+</section>
+
+<div class="kerb"></div>
+
+<main class="container">
+
+    <!-- PILOTOS -->
+    <section id="pilotos" class="section">
+
+        <p class="eyebrow">QUEM VAI ACELERAR?</p>
+        <h2>PILOTOS <span>EM DESTAQUE</span></h2>
+
+        <div class="drivers">
+
+            <article class="driver-card team-mclaren">
+                <span class="car-number">04</span>
+                <span class="team-name">MCLAREN</span>
+                <h3>Lando Norris</h3>
+                <p>Reino Unido</p>
+            </article>
+
+            <article class="driver-card team-mclaren">
+                <span class="car-number">81</span>
+                <span class="team-name">MCLAREN</span>
+                <h3>Oscar Piastri</h3>
+                <p>Austrália</p>
+            </article>
+
+            <article class="driver-card team-redbull">
+                <span class="car-number">01</span>
+                <span class="team-name">RED BULL</span>
+                <h3>Max Verstappen</h3>
+                <p>Países Baixos</p>
+            </article>
+
+            <article class="driver-card team-ferrari">
+                <span class="car-number">16</span>
+                <span class="team-name">FERRARI</span>
+                <h3>Charles Leclerc</h3>
+                <p>Mônaco</p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- CLASSIFICAÇÃO -->
+    <section id="classificacao" class="section">
+
+        <p class="eyebrow">RESULTADOS</p>
+        <h2>CLASSIFICAÇÃO <span>DA CORRIDA</span></h2>
+
+        <div class="filters">
+            <input type="text" placeholder="Temporada" disabled>
+            <input type="text" placeholder="Etapa" disabled>
+            <input type="search" placeholder="Buscar piloto" disabled>
+        </div>
+
+        <div class="table-wrap">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Posição</th>
+                        <th>Piloto</th>
+                        <th>Equipe</th>
+                        <th>Voltas</th>
+                        <th>Pontos</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr class="leader">
+                        <td>1</td>
+                        <td>Lando Norris</td>
+                        <td>McLaren</td>
+                        <td>71</td>
+                        <td>25</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Oscar Piastri</td>
+                        <td>McLaren</td>
+                        <td>71</td>
+                        <td>18</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Max Verstappen</td>
+                        <td>Red Bull</td>
+                        <td>71</td>
+                        <td>15</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Charles Leclerc</td>
+                        <td>Ferrari</td>
+                        <td>71</td>
+                        <td>12</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <p class="note">Classificação fictícia para demonstração.</p>
+
+    </section>
+
+    <!-- INGRESSOS -->
+    <section id="ingressos" class="section tickets">
+
+        <div class="tickets-info">
+
+            <p class="eyebrow">VIVA A EXPERIÊNCIA</p>
+            <h2>SINTA A <span>VELOCIDADE</span></h2>
+
+            <p>
+                Prepare-se para acompanhar toda a emoção
+                da Fórmula 1 em Interlagos!
+            </p>
+
+            <div class="ticket-option">
+                <strong>SETOR A</strong>
+                <span>Arquibancada com visão da pista</span>
+            </div>
+
+            <div class="ticket-option">
+                <strong>SETOR G</strong>
+                <span>Experiência com a torcida</span>
+            </div>
+
+            <div class="ticket-option">
+                <strong>PADDOCK</strong>
+                <span>Experiência especial</span>
+            </div>
+
+        </div>
+
+        <form class="ticket-form">
+
+            <h3>FORMULÁRIO DE INTERESSE</h3>
+
+            <div class="form-grid">
+
+                <div class="form-group">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="dia">Data</label>
+                    <input type="date" id="dia" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="qtd">Quantidade</label>
+                    <input type="number" id="qtd" min="1" max="6" disabled>
+                </div>
+
+                <div class="form-group full">
+                    <label for="setor">Setor desejado</label>
+                    <select id="setor" disabled>
+                        <option value="">Selecione</option>
+                        <option>Setor A</option>
+                        <option>Setor G</option>
+                        <option>Paddock</option>
+                    </select>
+                </div>
+
+                <div class="form-group full">
+                    <label for="foto">Foto</label>
+                    <input type="file" id="foto" accept="image/*" disabled>
+                </div>
+
+                <div class="form-group full">
+                    <label for="recado">Deixe seu recado</label>
+                    <textarea id="recado" rows="3" disabled></textarea>
+                </div>
+
+                <div class="full">
+                    <span class="btn-primary">ENVIAR</span>
+                </div>
+
+            </div>
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <span class="logo">PIT <span>WALL</span></span>
+
+    <p>
+        PITWALL · Projeto de estudo de HTML e CSS ·
+        Feito por Thamires Parizotto de Santana
+    </p>
+
+    <a href="#topo">VOLTAR AO TOPO ↑</a>
+
+</footer>
+
+</body>
+</html>
