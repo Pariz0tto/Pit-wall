@@ -1,2 +1,10 @@
-# Pit-wall
-Pilotos e pilotas da LIMA, chegou a hora de mostrar tudo o que vocês aprenderam no Sistema Musical! O desafio agora é recriar a página do GP de São Paulo, em Interlagos, só com HTML e CSS. 
+# 🏁 Pit Wall
+
+Projeto desenvolvido para a atividade de Linguagem de Marcação (LIMA), recriando uma página do GP de São Paulo de Fórmula 1 usando HTML e CSS.
+
+## Tecnologias
+- HTML
+- CSS
+
+## Desenvolvido por
+Thamires Parizotto de Santana
